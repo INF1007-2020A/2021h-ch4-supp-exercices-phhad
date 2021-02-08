@@ -3,19 +3,28 @@
 
 import random
 
-def is_even_len(string):
-	return 0xDEADBEEF
+def is_even_len(string: str) -> bool:
+	if len(string)%2==0:
+		return True
+	else:
+		return False
 
 
 def get_num_char(string, char):
-	return 0xDEADBABE
+	compteur = 0
+	for c in string:
+		if c == char:
+			compteur += 1
+	return compteur
 
 
 def get_first_part_of_name(name):
-	return ""
+	Partie_1_nom = name.split("-")[0]
+	return Partie_1_nom
 
 
 def get_random_sentence(animals, adjectives, fruits):
+	
 	return ""
 
 
