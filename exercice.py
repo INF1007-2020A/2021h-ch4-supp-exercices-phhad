@@ -24,8 +24,11 @@ def get_first_part_of_name(name):
 
 
 def get_random_sentence(animals, adjectives, fruits):
-	
-	return ""
+	word = []
+	for word_set in(animals, adjectives, fruits):
+		word += [word_set[random.randrange(0, len(word_set))]]
+	return  word
+
 
 
 if __name__ == "__main__":
