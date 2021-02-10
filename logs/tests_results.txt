@@ -1,6 +1,6 @@
 test_get_first_part_of_name (__main__.TestExercice) ... FAIL
 test_get_num_char (__main__.TestExercice) ... ok
-test_get_random_sentence (__main__.TestExercice) ... FAIL
+test_get_random_sentence (__main__.TestExercice) ... ok
 test_is_even_len (__main__.TestExercice) ... ok
 
 ======================================================================
@@ -18,15 +18,7 @@ First differing element 0:
 - ['Marie', 'Louis', 'pierre']
 + ['Bonjour, Marie', 'Bonjour, Louis', 'Bonjour, Pierre'] : Mauvaise extraction du premier prénom.
 
-======================================================================
-FAIL: test_get_random_sentence (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 77, in test_get_random_sentence
-    "Phrases pas aléatoires."
-AssertionError: False is not true : Phrases pas aléatoires.
-
 ----------------------------------------------------------------------
 Ran 4 tests in 0.001s
 
-FAILED (failures=2)
+FAILED (failures=1)
