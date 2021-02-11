@@ -3,14 +3,15 @@
 
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
-0/1 | Prénoms composés
+1/1 | Prénoms composés
 1/1 | Fréquence d'une lettre
 1/1 | Texte à trous
 1/1 | Longueur paire
-3/4 | **Total**
+4/4 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 4)
