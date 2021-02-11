@@ -20,14 +20,15 @@ def get_num_char(string, char):
 
 def get_first_part_of_name(name):
 	Partie_1_nom = name.split("-")[0]
-	return Partie_1_nom
+	return "Bonjour, " + Partie_1_nom
 
 
 def get_random_sentence(animals, adjectives, fruits):
 	word = []
 	for word_set in(animals, adjectives, fruits):
 		word += [word_set[random.randrange(0, len(word_set))]]
-	return  word
+	return "Aujourd’hui, j’ai vu un " + word[0] + " s’emparer d’un panier " + word[1] + " plein de " + word[2] +"."
+
 
 
 
