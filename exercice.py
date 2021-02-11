@@ -20,7 +20,7 @@ def get_num_char(string, char):
 
 def get_first_part_of_name(name):
 	Partie_1_nom = name.split("-")[0]
-	return "Bonjour, " + Partie_1_nom
+	return "Bonjour, " + Partie_1_nom.capitalize()
 
 
 def get_random_sentence(animals, adjectives, fruits):
